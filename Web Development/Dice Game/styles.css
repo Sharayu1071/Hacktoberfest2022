@@ -1,0 +1,62 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', serif;
+    color: teal;
+    font-size: 100px;
+}
+h3{
+    font-family: 'Brush script MT';
+    display: inline;
+    margin: 50px;
+    color: teal;
+    font-size: 50px;
+}
+.top{
+    margin: 100px;
+}
+.dice1{
+    margin-right: 50px;
+
+}
+.dice2
+{
+    margin-left: 50px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', serif;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom_text{
+    font-family: 'Montserrat', serif;
+    color: black;
+    font-size: 20px;
+  }
+  .bottom{
+    padding-top: 50px;
+  }
