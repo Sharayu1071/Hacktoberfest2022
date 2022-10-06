@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 25px auto;
+  display: flex;
+  justify-content: center;
+}
+.login {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2.325rem;
+  padding: 5px 10px;
+}
+
+.form input {
+  display: inline-block;
+  width: 200px;
+  margin: 5px 10px;
+  height: 30px;
+}
+.form button {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
