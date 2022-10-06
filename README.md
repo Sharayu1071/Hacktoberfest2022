@@ -32,11 +32,6 @@ P.S. Star ⭐ the repo and Share this repository 😍
 - Add me as reviewer.
 - Don't request more than one PR in this repo.
 
-# :book: How to edit CONTRIBUTORS.md?
-- Add your name with github profile link such as 👇
-    ```
-    <a href="https://github.com/username" target="_blank">Your name</a>
-    ```
 
 # 🤩 How to make pull request
     
