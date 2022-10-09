@@ -1,0 +1,48 @@
+# imports
+import matplotlib.pyplot as plt
+import numpy as np
+import wave, sys
+
+# shows the sound waves
+def visualize(path: str):
+
+	# reading the audio file
+	raw = wave.open(path)
+	
+	signal = raw.readframes(-1)
+	signal = np.frombuffer(signal, dtype ="int16")
+	
+	# frame rate
+	f_rate = raw.getframerate()
+
+	time = np.linspace(
+		0, # start
+		len(signal) / f_rate,
+		num = len(signal)
+	)
+
+	# using matplotlib
+	plt.figure(1)
+	
+	# title
+	plt.title("Sound Wave")
+	
+	# x-axis
+	plt.xlabel("Time")
+	
+	# actual plotting
+	plt.plot(time, signal)
+	
+	# shows the plot
+	plt.show()
+
+	# Save the plot using
+	# plt.savefig('filename')
+
+
+if __name__ == "__main__":
+
+	# gets the command line Value
+	path = sys.argv[1]
+
+	visualize(path)
